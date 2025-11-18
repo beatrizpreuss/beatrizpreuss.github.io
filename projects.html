@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Projects</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<h1><a href="index.html">Beatriz Preuss</a></h1>
+			<nav id="nav">
+				<ul>
+					<li class="special">
+						<a href="#menu" class="menuToggle"><span>Menu</span></a>
+						<div id="menu">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="projects.html">Projects</a></li>
+								<li><a href="about.html">About me</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Main -->
+		<article id="main">
+			<header>
+				<h2>Projects</h2>
+				<p></p>
+			</header>
+			<section class="wrapper style5">
+				<div class="inner" id="project1">
+					<header>
+						<h4>WanderWise Travel App</h4>
+						<p>Sofware Development Training Program - Final Project</p>
+					</header>
+
+					<div style="display: flex; flex-direction: row;">
+						<img style="width: 50%; display: flex; margin-right: 5%;" src="images/website-home.png"
+							alt="" />
+
+						<p style="display: flex;">
+							WanderWise is an AI-assisted travel planning web app that helps users discover destinations,
+							 organize trips, and build personalized itineraries. From the home page, users can explore
+							  destination ideas without creating an account by submitting a short preference form, which
+							   the backend uses to generate five tailored travel options. Logged-in users can create trips,
+							    edit existing ones, and manage all their points of interest through editable category tables.
+
+						</p>
+					</div>
+
+					<p style="margin-top: 4%;">
+						Each trip also includes an interactive map view, where users can visualize and manage their markers 
+						directly on the map. They can search for places, add new points of interest by clicking anywhere,
+						 and sync changes instantly with the trip’s tables. When users request suggestions, they answer a 
+						 few quick questions, and the backend queries the Overpass API for matching places near their 
+						 existing markers; OpenAI then selects the most relevant results to send back to the UI. 
+						 Users can also request AI-generated travel tips based on their current itinerary.
+
+					</p>
+
+					<img style="width: 100%;" src="images/website-map.png" alt="" />
+
+				</div>
+
+				<div style="margin-left: 15%;">
+				<p >
+					<strong>Tech stack:</strong>
+				<ul>
+					<li><strong>Backend:</strong> Python, Flask, SQLAlchemy, SQLite, OpenAI API, Overpass API</li>
+					<li><strong>Frontend:</strong> JavaScript, React, Vite, Tailwind CSS, React Leaflet + MapTiler
+					</li>
+					<li><strong>Authentication:</strong> Access token and refresh token</li>
+				</ul>
+				</p>
+				<ul class="actions">
+					<li><a href="https://github.com/beatrizpreuss/trip-app-backend" class="button primary">Backend Code</a>
+					</li>
+					<li><a href="https://github.com/beatrizpreuss/trip-app-frontend" class="button">Frontend Code</a>
+					</li>
+				</ul>
+
+			</div>
+				<hr />
+	</div>
+
+	</section>
+	</article>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<ul class="icons">
+			<li><a href="https://www.linkedin.com/in/beatrizpreuss/" class="icon brands fa-linkedin-in"><span
+						class="label">Linkedin</span></a></li>
+			<li><a href="https://github.com/beatrizpreuss" class="icon brands fa-github"><span
+						class="label">github</span></a></li>
+			<li><a href="https://beatrizpreuss.github.io/" class="icon solid fa-globe"><span class="label">Webpage</span></a>
+			</li>
+			<li><a href="mailto:beatrizpreuss@gmail.com" class="icon solid fa-envelope"><span
+						class="label">Email</span></a></li>
+		</ul>
+		<ul class="copyright">
+			<li>&copy; Beatriz Preuss</li>
+			<li>Design: based on <a href="https://html5up.net/spectral">HTML5UP</a> and <a
+					href="https://www.w3schools.com/howto/howto_css_timeline.asp">W3</a></li>
+		</ul>
+	</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
